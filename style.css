@@ -2,5 +2,14 @@ body {
     background-color: #0d0d0d;
     color: white;
     text-align: center;
+    margin: 0;
 }
 
+.topnav, footer{
+    background-color: gray;
+    padding: 14px;
+    
+}
+.topnav a:hover {
+    color: red;
+}

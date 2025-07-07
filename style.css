@@ -3,6 +3,7 @@ body {
     color: white;
     text-align: center;
     margin: 0;
+    font-size: 1.5vw;
 }
 
 .topnav, footer{
@@ -13,5 +14,9 @@ body {
 .topnav a:hover {
     color: red;
 }
-
+@media(max-width: 700px){
+    body{
+        font-size: 6vw;
+    }
+}
 
